@@ -4,7 +4,11 @@
 }
 
 .right-side-button {
-	float: right;
+	 float: right;
+ }
+
+.left-side-button {
+	float: left;
 }
 
 .breadcrumbs {
