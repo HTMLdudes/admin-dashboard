@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="utf-8" />
-	<title>Inbox - Ace Admin</title>
+	<title>Product Detail</title>
 
 	<meta name="description" content="Mailbox with some customizations as described in docs" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -25,7 +25,7 @@
 			<![endif]-->
 			<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
 			<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
-			<link rel="stylesheet" href="assets/css/awesome-icon-style.css" />
+			<link rel="stylesheet" href="assets/css/waseem-style.css" />
 
 		<!--[if lte IE 9]>
 		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
@@ -862,603 +862,128 @@
 			<div class="main-content">
 				<div class="main-content-inner">
 					<div class="page-content">
-						<div class="breadcrumbs ace-save-state" id="breadcrumbs">
-							<ul class="order-detail">
-								<li>
-									<a href="#">Orders List</a>
-								</li>
-								<li>
-									<a href="#">Standard Orders</a>
-								</li>
-								<li>
-									<a href="#">Order delivery today</a>
-								</li>
-								<li>
-									<a href="#">Order taken today</a>
-								</li>
-								<li>
-									<a href="#">Order delivery tomorrow</a>
-								</li>
-							</ul>
-						</div>
-						<div class="breadcrumbs ace-save-state" id="breadcrumbs">
-							<div class="nav-search" id="nav-search">
-								<form class="form-search">
-									<span class="input-icon">
-										<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
-										<i class="ace-icon fa fa-search nav-search-icon"></i>
-									</span>
-								</form>
-							</div><!-- /.nav-search -->
-						</div>
-						<div class="breadcrumbs ace-save-state" id="breadcrumbs">
-							<form class="invoice-company">
-								<span>
-									Invoice No.
-									<input type="text" placeholder="">
-								</span>
-								<span>
-									Order Date
-									<input type="text" placeholder="">
-								</span>
-								<span>
-									Delivery Date
-									<input type="text" placeholder="">
-								</span>
-								<span>
-									Company Name
-									<input type="text" placeholder="">
-								</span>
-							</form>
-						</div>
-						<div class="breadcrumbs ace-save-state" id="breadcrumbs">
-							<label class="pos-rel">
-								<input type="checkbox" class="ace" />
-								<span class="lbl"></span>
-								<span>Select All</span>
-							</label>
-							<button class="stopin">
-								CANCEL
-							</button>
-							<button class="creatin">
-								CREATE
-							</button>
-							<div class="page-selector">
-								<select>
-									<option>1</option>
-								</select>
-								<span>per page</span>
+
+						<form>
+						<div class="row">
+
+							<!-- PAGE CONTENT BEGINS -->
+							<div class="heading ace-save-state" id="breadcrumbs">
+								<h4>Product Detail</h4>
+							</div>
+							<div class="breadcrumbs heading ace-save-state" id="breadcrumbs">
+								<form class="form-horizontal" role="form">
+
+									<button class="btn btn-danger btn-sm">
+										<i class="fa fa-arrow-right" aria-hidden="true"></i>
+										&nbsp;&nbsp;BACK TO LIST
+									</button>
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Product Name : </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+
+
+									<div class="form-group">
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Product Code : </label>
+
+										<div class="col-sm-9">
+											<input type="text" id="form-field-1" placeholder="" class="col-xs-10 col-sm-5" />
+										</div>
+									</div>
+
+									<div class="space-4"></div>
+
+									<div class="form-group">
+										<label for="form-field-select-3">Customer : </label>
+										<select class="chosen-select form-control" id="form-field-select-3"
+										data-placeholder="Lobby Cafe" style="display: none;">
+										<option value="">Lobby Cafe</option>
+										<option value="AL">Alabama</option>
+										<option value="AK">Alaska</option>
+										<option value="AZ">Arizona</option>
+										<option value="AR">Arkansas</option>
+										<option value="CA">California</option>
+										<option value="CO">Colorado</option>
+									</select>
+									<div class="chosen-container chosen-container-single" style="width: 356px;" title=""
+									id="form_field_select_3_chosen"><a
+									class="chosen-single chosen-default"><span>Lobby Cafe</span>
+									<div><b></b></div>
+								</a>
+								<div class="chosen-drop">
+									<div class="chosen-search"><input type="text" autocomplete="off"></div>
+									<ul class="chosen-results">
+										<li class="active-result" data-option-array-index="1">Alabama</li>
+										<li class="active-result" data-option-array-index="2">Alaska</li>
+										<li class="active-result" data-option-array-index="3">Arizona</li>
+										<li class="active-result" data-option-array-index="4">Arkansas</li>
+										<li class="active-result" data-option-array-index="5">California</li>
+										<li class="active-result" data-option-array-index="6">Colorado</li>
+										<li class="active-result" data-option-array-index="7">Connecticut</li>
+										<li class="active-result" data-option-array-index="8">Delaware</li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Cost Price : </label>
+
+								<div class="col-sm-9">
+									<input type="text" id="form-field-1" placeholder="" class="col-xs-10 col-sm-5" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Sell Price : </label>
+
+								<div class="col-sm-9">
+									<div>
+
+									</div>
+									<input type="text" id="form-field-1" placeholder="" class="col-xs-10 col-sm-5" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> GST Free : </label>
+
+								<div class="col-sm-9">
+									<label class="pos-rel">
+										<input type="checkbox" class="ace" />
+									</label>
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-xs-12">
-								<table id="simple-table" class="table  table-bordered table-hover">
-									<thead>
-										<tr>
-											<th class="center"> </th>
-											<th class="detail-col">No.</th>
-											<th>Order Date</th>
-											<th>Delivery Date</th>
-											<th class="hidden-480">Company Name</th>
-											<th>Tel</th>
-											<th class="hidden-480">Total</th>
-											<th>Invoice</th>
-											<th> </th>
-										</tr>
-									</thead>
 
-									<tbody>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
 
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
 
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
 
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
 
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
+						<div class="hr hr-24"></div>
 
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
 
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
 
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
+						<hr />
 
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
+					</form>
 
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
 
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
+				</div>
+		</div><!-- /.main-content -->
 
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
 
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
 
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
+		<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+			<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+		</a>
+	</div><!-- /.main-container -->
+</div>
+<!-- basic scripts -->
 
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
+<!--[if !IE]> -->
+<script src="assets/js/jquery-2.1.4.min.js"></script>
 
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="center">
-												<label class="pos-rel">
-													<input type="checkbox" class="ace" />
-													<span class="lbl"></span>
-												</label>
-											</td>
-
-											<td class="center">
-												<div class="action-buttons">
-													<span class="sr-only">43721</span>
-												</div>
-											</td>
-
-											<td>08/09/2016</td>
-											<td>09/09/2016</td>
-											<td class="hidden-480">Amarinder Bajwa</td>
-											<td>0421 998458</td>
-
-											<td class="hidden-480">72.72</td>
-											<td>
-												<a href="#">Invoice</a>
-											</td>
-											<td>
-												<div class="hidden-sm hidden-xs btn-group">
-													<button class="btn btn-xs btn-info">
-														<i class="ace-icon fa fa-pencil bigger-120"></i>
-													</button>
-												</div>
-
-												<div class="hidden-md hidden-lg">
-													<div class="inline pos-rel">
-														<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
-															<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
-														</button>
-
-														<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
-															<li>
-																<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																	<span class="green">
-																		<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
-																	</span>
-																</a>
-															</li> 
-														</ul>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div><!-- /.span -->
-						</div><!-- /.row -->
-						
-					</div>
-				</div><!-- /.main-content -->
-			</div>
-			
-
-			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
-				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
-			</a>
-		</div><!-- /.main-container -->
-
-		<!-- basic scripts -->
-
-		<!--[if !IE]> -->
-		<script src="assets/js/jquery-2.1.4.min.js"></script>
-
-		<!-- <![endif]-->
+<!-- <![endif]-->
 
 		<!--[if IE]>
 <script src="assets/js/jquery-1.11.3.min.js"></script>
