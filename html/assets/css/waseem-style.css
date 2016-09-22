@@ -1,0 +1,152 @@
+.fa-dashboard:before,
+.fa-home:before {
+	content: "\f015" !important;
+}
+
+.fa-list-alt:before {
+	content: "\f022" !important;
+}
+
+.fa-shopping-cart:before {
+	content: "\f07a" !important;
+}
+
+.fa-edit:before, .fa-usd:before {
+	content: "\f155" !important;
+}
+
+.fa-report:before {
+	content: "\f200" !important;
+}
+
+.fa-user:before {
+	content: "\f007" !important;
+}
+
+.fa-refresh:before {
+	content: "\f021" !important;
+}
+
+.fa-user-secret:before {
+	content: "\f21b" !important;
+}
+
+.invoice-company span:first-child {
+	margin-left: 20px;
+}
+
+.invoice-company span {
+	margin-left: 25px;
+}
+
+.invoice-company span input {
+	width: 130px;
+	height: 30px !important;
+	margin-left: 7px;
+}
+
+.breadcrumbs {
+	line-height: 25px !important;
+}
+
+.breadcrumbs .pos-rel {
+	margin: 0 0 0 22px;
+}
+
+.stopin {
+	height: 30px !important;
+	margin: 5px 0 5px 40px;
+	vertical-align: middle;
+}
+
+.creatin {
+	height: 30px !important;
+	margin: 5px 0 5px 40px;
+	vertical-align: middle;
+}
+
+.sr-only {
+	overflow: inherit !important;
+	position: inherit !important;
+}
+
+.page-selector {
+	float: right;
+	margin-right: 10px;
+}
+
+.page-selector span {
+	margin-left: 7px;
+}
+
+.order-detail {
+	list-style: none;
+	padding-top: 7px;
+}
+
+.order-detail li {
+	display: inline-block;
+	margin-left: 108px;
+}
+
+.order-detail li:first-child {
+	margin-left: 10px;
+}
+
+.order-detail li a {
+	font-weight: 700;
+}
+
+.form-order-wrap {
+	width: 900px;
+	margin: 80px auto;
+}
+
+.backlist {
+	display: block;
+}
+
+.backlist button {
+	float: right;
+}
+
+.order-form {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.order-form input {
+	height: 22px;
+	width: 100px;
+	margin-left: 10px;
+}
+
+.syd-order {
+	padding: 5px 0 0 30px;
+}
+
+.first-table tbody tr td {
+	padding: 20px 10px 10px 25px !important;
+}
+
+.order-form table tbody tr td span {
+	padding-left: 7px;
+}
+
+.custom-detail {
+	height: 27px !important;
+	width: 220px !important;
+}
+
+.order-form button {
+	float: right;
+}
+
+.third-table tbody tr td {
+	padding: 20px 30px 0 25px !important;
+}
+
+.third-table tbody tr td:nth-child(even) {
+	padding: 20px 20px 0 50px !important;;
+}
