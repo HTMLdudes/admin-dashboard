@@ -1,19 +1,5 @@
-.left-items-list {
-	float: left;
-	margin-left: 40px;
-}
-
-.right-side-button {
-	float: right;
-}
-
-.breadcrumbs {
-	float: inherit;
-	width: 100%;
-	margin-top: 20px;
-}
-
 .heading {
 	background: #F5F5F5;
 	min-height: 41px;
+	padding: 5px 0 0 20px !important;
 }

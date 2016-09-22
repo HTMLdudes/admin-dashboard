@@ -47,16 +47,11 @@
 
 .breadcrumbs {
 	line-height: 25px !important;
+	margin-top: 0 !important;
 }
 
 .breadcrumbs .pos-rel {
 	margin: 0 0 0 22px;
-}
-
-.stopin {
-	height: 30px !important;
-	margin: 5px 0 5px 40px;
-	vertical-align: middle;
 }
 
 .creatin {
@@ -106,47 +101,29 @@
 	display: block;
 }
 
-.backlist button {
-	float: right;
-}
-
-.order-form {
-	float: left;
-	width: 100%;
-	margin-top: 30px;
-}
-
-.order-form input {
-	height: 22px;
-	width: 100px;
-	margin-left: 10px;
-}
-
 .syd-order {
 	padding: 5px 0 0 30px;
 }
 
-.first-table tbody tr td {
-	padding: 20px 10px 10px 25px !important;
+.page-content {
+	position: inherit !important;
 }
 
-.order-form table tbody tr td span {
-	padding-left: 7px;
-}
-
-.custom-detail {
-	height: 27px !important;
-	width: 220px !important;
-}
-
-.order-form button {
+.ace-settings-container {
+	position: inherit !important;
 	float: right;
 }
 
-.third-table tbody tr td {
-	padding: 20px 30px 0 25px !important;
+.right-total {
+	float: right;
 }
 
-.third-table tbody tr td:nth-child(even) {
-	padding: 20px 20px 0 50px !important;;
+.heading {
+	background: #F5F5F5;
+	min-height: 41px;
+	padding: 1px 0 0 20px !important;
+}
+
+.form-action {
+	margin-bottom: 0 !important;
 }
